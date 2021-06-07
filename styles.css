@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: rgb(206, 255, 255);
+    font-family: 'Limelight', cursive;
+}
+.Group>div{
+    width: 600px;
+    height: 300px;
+    margin: 5px;
+    background: linear-gradient(90deg, rgba(240,240,240,1) 18%, rgba(194,244,255,1) 49%, rgba(137,255,247,1) 95%);
+}
+div>a{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+    padding-right: 10px;
+    background: background: linear-gradient(90deg, rgba(240,240,240,1) 18%, rgba(194,244,255,1) 49%, rgba(137,255,247,1) 95%);
+}
+div>p{
+    text-align: end;
+    font-size: 20px;
+    margin-right: 5px;
+    background: linear-gradient(90deg, rgba(240,240,240,1) 18%, rgba(194,244,255,1) 49%, rgba(137,255,247,1) 95%);
+}
+div>img{
+    background: transparent;
+}
+#calc>img
+{
+    width: 200px;
+    align-items: center;
+    margin-left: 180px;
+}
+#conc>img
+{
+    width: 360px;
+    align-items: center;
+    margin-left: 140px;
+}
+#disn>img
+{
+    width: 410px;
+    align-items: center;
+    margin-left: 140px;
+}
+#twit>img
+{
+    width: 240px;
+    align-items: center;
+    margin-left: 180px;
+}
+#fleb>img
+{
+    width: 340px;
+    margin-top: 60px;
+    align-items: center;
+    margin-left: 180px;
+}
+#tnd>img{
+    width: 240px;
+    align-items: center; 
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.Group{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow:column nowrap;
+}
+
